@@ -73,6 +73,7 @@ public class GitHubPlugin extends SonarPlugin {
 
   @Override
   public List getExtensions() {
+    // TODO
     return Arrays.asList(
       PullRequestIssuePostJob.class,
       GitHubPluginConfiguration.class,
